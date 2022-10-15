@@ -2,7 +2,8 @@
 <div>
   {% for block in section.blocks %}
     {% assign item = section.blocks %}
-    <a href="{{item.link}}">links</a>
+    <a href="{{item.link}}">{{item.link}}
+    </a>
   {%endfor%}
 </div>
 {% schema %}
@@ -29,4 +30,4 @@
       }
     ]
   }
-{% endschema %}}}}}
+{% endschema %}}}}}}
