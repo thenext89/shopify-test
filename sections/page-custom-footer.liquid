@@ -1,7 +1,7 @@
 <div class="footer-container">
     this works
     <div class = "footer-test">
-        {% for block in blocks %}
+        {% for block in section.blocks %}
             {%if block.name == "Footer Heading"%}
                 <h1> {{block.id}}</h1>
             {% endif %}
