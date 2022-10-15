@@ -6,9 +6,11 @@
   width: 100%;
   position: relative;
 }
-.newsletter__wrapper {
-  /* width: fit-content; */
+
+.newsletter__wrapper h2 {
+  font-size: 20px;
 }
+
 @media screen and (min-width: 750px) {
   .newsletter-form {
     align-items: flex-start;
@@ -54,12 +56,12 @@
 }
 
 .newsletter-form__button:focus-visible {
-  box-shadow: 0 0 0 .3rem rgb(var(--color-background)),0 0 0 .4rem rgba(var(--color-foreground));
+  box-shadow: 0 0 0 .3rem rgb(var(--color-background)), 0 0 0 .4rem rgba(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
 
 .newsletter-form__button:focus {
-  box-shadow: 0 0 0 .3rem rgb(var(--color-background)),0 0 0 .4rem rgba(var(--color-foreground));
+  box-shadow: 0 0 0 .3rem rgb(var(--color-background)), 0 0 0 .4rem rgba(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
 
