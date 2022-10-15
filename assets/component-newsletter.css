@@ -7,7 +7,7 @@
   position: relative;
 }
 .newsletter__wrapper {
-  width: fit-content;
+  /* width: fit-content; */
 }
 @media screen and (min-width: 750px) {
   .newsletter-form {
