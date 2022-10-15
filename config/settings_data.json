@@ -240,32 +240,26 @@
         "settings": {
         }
       },
-      "page-custom-footer": {
-        "type": "page-custom-footer",
+      "custom-footer": {
+        "type": "custom-footer",
+        "settings": {
+        }
+      },
+      "page-footer": {
+        "type": "page-footer",
         "blocks": {
-          "2a4ca82e-c6ac-4381-a67c-a0773ba9b392": {
-            "type": "footet-heading",
+          "fd0ea4ea-220c-4411-a968-483d54db5ac8": {
+            "type": "footer-link",
             "settings": {
-              "heading": "facebook"
-            }
-          },
-          "c8eac160-9fd0-4257-bdd1-3f2466f4998b": {
-            "type": "Footer_link",
-            "settings": {
-              "link": "facebook.com\/gaconhyhy"
+              "link": "fackebook.com\/gaconhyhy"
             }
           }
         },
         "block_order": [
-          "2a4ca82e-c6ac-4381-a67c-a0773ba9b392",
-          "c8eac160-9fd0-4257-bdd1-3f2466f4998b"
+          "fd0ea4ea-220c-4411-a968-483d54db5ac8"
         ],
         "settings": {
-        }
-      },
-      "custom-footer": {
-        "type": "custom-footer",
-        "settings": {
+          "heading": ""
         }
       }
     },
