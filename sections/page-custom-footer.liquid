@@ -1,0 +1,45 @@
+<div class="faq-container">
+    <div class="tabs">
+        {% for block in section.blocks%}
+            {% assign item = block.settings %}
+            <div class="tab">
+                <input type="checkbox" class="faq-checkbox" id="faq_checkbox {{block.id}}">
+                <label for="faq_checkbox {{block.id}}" class="tab-label">
+                    {{item.question}}
+                </label>
+                <div class="tab-content">
+                    {{item.answer}}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "FAQ Block",
+    "blocks": [
+      {
+        "name":"FAQ Items",
+        "type":"faq",
+        "settings": [
+          {
+            "type":"text",
+            "label":"Question",
+            "id":"question"
+          },
+          {
+            "type":"richtext",
+            "label":"Answer",
+            "id":"answer"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
