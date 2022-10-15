@@ -1,5 +1,15 @@
 <div class="footer-container">
     this works
+    <div class = "footer-test">
+        {% for block in blocks %}
+            {%if block.name == "Footer Heading"%}
+                <h1> {{block.id}}</h1>
+            {% endif %}
+            {%if block.name == "Footer Link"%}
+            <a href="{{block.id}}"
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>
 {% schema %}
   {
