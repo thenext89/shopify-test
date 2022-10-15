@@ -239,6 +239,34 @@
         ],
         "settings": {
         }
+      },
+      "page-custom-footer": {
+        "type": "page-custom-footer",
+        "blocks": {
+          "2a4ca82e-c6ac-4381-a67c-a0773ba9b392": {
+            "type": "footet-heading",
+            "settings": {
+              "heading": ""
+            }
+          },
+          "c8eac160-9fd0-4257-bdd1-3f2466f4998b": {
+            "type": "Footer_link",
+            "settings": {
+              "link": "facebook.com\/gaconhyhy"
+            }
+          }
+        },
+        "block_order": [
+          "2a4ca82e-c6ac-4381-a67c-a0773ba9b392",
+          "c8eac160-9fd0-4257-bdd1-3f2466f4998b"
+        ],
+        "settings": {
+        }
+      },
+      "custom-footer": {
+        "type": "custom-footer",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
