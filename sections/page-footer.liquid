@@ -1,8 +1,14 @@
 <h1>this works</h1>
 <div>
   {% for block in section.blocks %}
-    {% assign item = block.settings %}
-    <a href="{{item.link}}">{{item.link}}
+    {% assign link = block.settings %}
+    <div class="heading">
+      {{block.heading}}
+    </div>
+    <div class="link">
+      <a href="{{item.link}}">{{item.link}}
+      </div>
+
     </a>
   {%endfor%}
 </div>
@@ -30,4 +36,4 @@
       }
     ]
   }
-{% endschema %}}}}}}}
+{% endschema %}}}}}}}}
