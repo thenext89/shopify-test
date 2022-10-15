@@ -253,10 +253,17 @@
             "settings": {
               "link": "fackebook.com\/gaconhyhy"
             }
+          },
+          "2e599040-807d-4bf9-a080-fee8540bb751": {
+            "type": "footer-link",
+            "settings": {
+              "link": "facebook.com"
+            }
           }
         },
         "block_order": [
-          "fd0ea4ea-220c-4411-a968-483d54db5ac8"
+          "fd0ea4ea-220c-4411-a968-483d54db5ac8",
+          "2e599040-807d-4bf9-a080-fee8540bb751"
         ],
         "settings": {
           "heading": ""
