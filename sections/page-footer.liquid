@@ -1,7 +1,7 @@
 <h1>this works</h1>
 <div>
   {% for block in section.blocks %}
-    {% assign item = section.blocks %}
+    {% assign item = block.settings %}
     <a href="{{item.link}}">{{item.link}}
     </a>
   {%endfor%}
@@ -30,4 +30,4 @@
       }
     ]
   }
-{% endschema %}}}}}}
+{% endschema %}}}}}}}
