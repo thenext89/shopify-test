@@ -1,18 +1,5 @@
 <div class="footer-container">
-    <div class="tabs">
-        {% for block in section.blocks%}
-            {% assign item = block.settings %}
-            <div class="tab">
-                <input type="checkbox" class="faq-checkbox" id="faq_checkbox {{block.id}}">
-                <label for="faq_checkbox {{block.id}}" class="tab-label">
-                    {{item.question}}
-                </label>
-                <div class="tab-content">
-                    {{item.answer}}
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+    this works
 </div>
 {% schema %}
   {
