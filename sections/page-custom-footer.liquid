@@ -4,10 +4,10 @@
         {% for block in section.blocks %}
             {% assign item = section.blocks %}
             {%if item.settings.name == "Footer Heading"%}
-                <h1> {{item.settings.name.id}}</h1>
+                <h1> {{item.heading}}</h1>
             {% endif %}
             {%if item.settings.name == "Footer Link"%}
-            <a href="{{item.setting.name.id}}"> links</a>
+            <a href="{{item.link}}"> links</a>
             {% endif %} 
         {% endfor %}
     </div>
