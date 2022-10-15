@@ -2,10 +2,10 @@
     this works
     <div class = "footer-test">
         {% for block in section.blocks %}
-            {%if block.name == "Footer Heading"%}
+            {%if block.settings.name == "Footer Heading"%}
                 <h1> {{block.id}}</h1>
             {% endif %}
-            {%if block.name == "Footer Link"%}
+            {%if block.settings.name == "Footer Link"%}
             <a href="{{block.id}}"
             {% endif %}
         {% endfor %}
