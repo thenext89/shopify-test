@@ -1,4 +1,4 @@
-/* .newsletter__wrapper {
+.newsletter__wrapper {
   padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));
 }
@@ -47,4 +47,4 @@
     flex-shrink: 0;
     margin: 0 0 0 1rem;
   }
-} */
+}

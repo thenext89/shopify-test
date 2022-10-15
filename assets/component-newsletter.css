@@ -1,4 +1,4 @@
-/* .newsletter-form {
+.newsletter-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,4 +72,4 @@
 
 .newsletter-form__button .icon {
   width: 1.5rem;
-} */
+}
